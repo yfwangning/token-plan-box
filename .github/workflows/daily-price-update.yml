@@ -1,0 +1,37 @@
+name: Daily official price update
+
+on:
+  schedule:
+    # 09:00 Asia/Shanghai every day.
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-official-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Fetch official vendor sources
+        run: node scripts/update-official-data.mjs
+
+      - name: Commit generated data
+        run: |
+          if git diff --quiet -- data/official-price-data.json data/update-report.md; then
+            echo "No official pricing data changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/official-price-data.json data/update-report.md
+          git commit -m "chore(data): update official AI pricing snapshots"
+          git push

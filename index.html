@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI API 性价比 | 厂商库</title>
+    <meta
+      name="description"
+      content="面向国内用户的 AI API 厂商库，快速查看旗舰模型、API 价格、Code Plan 和购买入口。"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#087a73" />
+    <meta name="color-scheme" content="light" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:title" content="AI API 性价比 | 厂商库" />
+    <meta
+      property="og:description"
+      content="面向国内用户的 AI API 厂商库，查看旗舰模型、API 价格、Code Plan / Token Plan 和官方购买入口。"
+    />
+    <meta property="og:image" content="/assets/og-image.svg" />
+    <meta property="og:site_name" content="AI API 性价比" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI API 性价比 | 厂商库" />
+    <meta
+      name="twitter:description"
+      content="面向国内用户的 AI API 厂商库，查看旗舰模型、API 价格、Code Plan / Token Plan 和官方购买入口。"
+    />
+    <meta name="twitter:image" content="/assets/og-image.svg" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23087a73'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='34' font-family='Arial' font-weight='700' fill='white'%3E%C2%A5%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="./" aria-label="AI API 性价比厂商库">
+          <span class="brand-mark">¥</span>
+          <span>
+            <strong>AI API 性价比</strong>
+            <small>厂商库</small>
+          </span>
+        </a>
+      </header>
+
+      <main>
+        <section class="page-head" aria-labelledby="page-title">
+          <div>
+            <span class="eyebrow">官方同步 · 国内价格</span>
+            <h1 id="page-title">厂商库</h1>
+            <p>
+              只保留购买决策需要的信息：<span class="mobile-break"></span>厂商、旗舰模型、API
+              价格、<span class="mobile-break"></span>套餐和官方购买入口。
+            </p>
+          </div>
+          <div class="head-panel">
+            <span class="freshness" id="freshness">数据加载中</span>
+            <div class="head-stat">
+              <strong id="vendor-count">--</strong>
+              <small>厂商</small>
+            </div>
+            <div class="head-stat">
+              <strong id="plan-count">--</strong>
+              <small>套餐</small>
+            </div>
+          </div>
+        </section>
+
+        <section class="library-toolbar" aria-label="厂商筛选和排序">
+          <label class="search-control">
+            <span>搜索</span>
+            <input id="library-search" type="search" placeholder="厂商、模型或套餐" autocomplete="off" />
+          </label>
+          <div class="filter-group" role="group" aria-label="套餐类型筛选">
+            <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">全部</button>
+            <button class="filter-btn" type="button" data-filter="available" aria-pressed="false">Code Plan</button>
+            <button class="filter-btn" type="button" data-filter="token" aria-pressed="false">Token Plan</button>
+            <button class="filter-btn" type="button" data-filter="discount" aria-pressed="false">有优惠</button>
+            <button class="filter-btn" type="button" data-filter="needs-review" aria-pressed="false">待同步</button>
+          </div>
+          <label class="sort-control">
+            <span>排序</span>
+            <select id="library-sort">
+              <option value="priority">推荐顺序</option>
+              <option value="plan-count">套餐数量</option>
+              <option value="api-input">API 输入价</option>
+              <option value="updated">最近校验</option>
+            </select>
+          </label>
+        </section>
+
+        <section class="provider-grid" id="provider-grid" aria-label="厂商卡片"></section>
+        <section class="sync-panel" id="sync-panel" aria-label="数据同步状态"></section>
+        <section class="change-panel" id="change-panel" aria-label="最近数据变化"></section>
+        <section class="source-directory" id="source-directory" aria-label="官方来源列表"></section>
+        <section class="disclaimer" aria-label="价格免责声明">
+          <strong>价格免责声明</strong>
+          <p>
+            本页面仅整理厂商官方公开页面和官方文档中的信息，价格、额度、优惠和权益可能随厂商政策调整而变化。
+            购买或签约前，请以对应厂商官网、控制台和合同条款为准。
+          </p>
+        </section>
+      </main>
+    </div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

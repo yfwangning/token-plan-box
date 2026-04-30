@@ -1,0 +1,186 @@
+{
+  "updatedAt": "2026-04-30",
+  "policy": "Only official vendor documentation or official pricing pages are allowed as primary sources. Parsed changes are written to generated data; ambiguous changes must enter review before publication.",
+  "sources": [
+    {
+      "providerId": "deepseek",
+      "providerName": "DeepSeek",
+      "type": "api-pricing",
+      "url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+      "parser": "deepseekPricing",
+      "publishMode": "auto-parse-review",
+      "codePlanAvailability": "none"
+    },
+    {
+      "providerId": "zhipu",
+      "providerName": "智谱 AI",
+      "type": "api-pricing",
+      "url": "https://bigmodel.cn/pricing",
+      "parser": null,
+      "publishMode": "snapshot-review",
+      "codePlanAvailability": "unknown"
+    },
+    {
+      "providerId": "zhipu",
+      "providerName": "智谱 AI",
+      "type": "code-plan-subscription",
+      "url": "https://www.bigmodel.cn/glm-coding?cc=fission_glmcode_sub_v1&ic=UX7NF0VZ4S&n=v",
+      "parser": null,
+      "publishMode": "snapshot-review",
+      "codePlanAvailability": "available"
+    },
+    {
+      "providerId": "kimi",
+      "providerName": "Kimi",
+      "type": "api-pricing",
+      "url": "https://platform.kimi.com/docs/pricing/chat-k26",
+      "parser": null,
+      "publishMode": "snapshot-review",
+      "codePlanAvailability": "unknown"
+    },
+    {
+      "providerId": "kimi",
+      "providerName": "Kimi",
+      "type": "membership-plan-subscription",
+      "url": "https://www.kimi.com/membership/pricing?track_id=ace3f1b9-bb9d-4941-887c-751e4b091694",
+      "parser": null,
+      "publishMode": "snapshot-review",
+      "codePlanAvailability": "available"
+    },
+    {
+      "providerId": "minimax",
+      "providerName": "MiniMax",
+      "type": "pricing-overview",
+      "url": "https://platform.minimaxi.com/docs/guides/pricing-paygo",
+      "parser": null,
+      "publishMode": "snapshot-review",
+      "codePlanAvailability": "pending"
+    },
+    {
+      "providerId": "minimax",
+      "providerName": "MiniMax",
+      "type": "token-plan",
+      "url": "https://platform.minimaxi.com/subscribe/token-plan",
+      "parser": null,
+      "publishMode": "snapshot-review",
+      "codePlanAvailability": "available"
+    },
+    {
+      "providerId": "longcat",
+      "providerName": "美团 LongCat",
+      "type": "official-entry",
+      "url": "https://longcat.chat/platform/docs/zh/",
+      "parser": null,
+      "publishMode": "snapshot-review",
+      "codePlanAvailability": "none"
+    },
+    {
+      "providerId": "longcat",
+      "providerName": "美团 LongCat",
+      "type": "api-docs",
+      "url": "https://longcat.chat/platform/docs/zh/APIDocs.html",
+      "parser": null,
+      "publishMode": "snapshot-review",
+      "codePlanAvailability": "none"
+    },
+    {
+      "providerId": "mimo",
+      "providerName": "小米 MiMo",
+      "type": "token-plan-subscription",
+      "url": "https://platform.xiaomimimo.com/static/docs/tokenplan/subscription.md",
+      "parser": "mimoTokenPlan",
+      "publishMode": "auto-parse-review",
+      "codePlanAvailability": "available"
+    },
+    {
+      "providerId": "mimo",
+      "providerName": "小米 MiMo",
+      "type": "api-pricing",
+      "url": "https://platform.xiaomimimo.com/static/docs/pricing.md",
+      "parser": "mimoPricing",
+      "publishMode": "auto-parse-review",
+      "codePlanAvailability": "available"
+    },
+    {
+      "providerId": "volcengine",
+      "providerName": "火山方舟",
+      "type": "code-plan-subscription",
+      "url": "https://www.volcengine.com/activity/codingplan?ac=MMAP8JTTCAQ2&rc=T84FFCKU",
+      "parser": null,
+      "publishMode": "snapshot-review",
+      "codePlanAvailability": "available"
+    },
+    {
+      "providerId": "aliyun",
+      "providerName": "阿里百炼",
+      "type": "model-release",
+      "url": "https://www.alibabacloud.com/blog/603043",
+      "parser": null,
+      "publishMode": "snapshot-review",
+      "codePlanAvailability": "available"
+    },
+    {
+      "providerId": "aliyun",
+      "providerName": "阿里百炼",
+      "type": "api-pricing",
+      "url": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "parser": null,
+      "publishMode": "snapshot-review",
+      "codePlanAvailability": "available"
+    },
+    {
+      "providerId": "aliyun",
+      "providerName": "阿里百炼",
+      "type": "code-plan",
+      "url": "https://help.aliyun.com/zh/model-studio/coding-plan",
+      "parser": null,
+      "publishMode": "snapshot-review",
+      "codePlanAvailability": "available"
+    },
+    {
+      "providerId": "aliyun",
+      "providerName": "阿里百炼",
+      "type": "token-plan",
+      "url": "https://help.aliyun.com/zh/model-studio/token-plan-overview",
+      "parser": "aliyunTokenPlan",
+      "publishMode": "auto-parse-review",
+      "codePlanAvailability": "available"
+    },
+    {
+      "providerId": "baidu",
+      "providerName": "百度千帆",
+      "type": "code-plan",
+      "url": "https://cloud.baidu.com/product/codingplan.html",
+      "parser": "baiduCodingPlan",
+      "publishMode": "auto-parse-review",
+      "codePlanAvailability": "available"
+    },
+    {
+      "providerId": "tencent",
+      "providerName": "腾讯云",
+      "type": "token-plan",
+      "url": "https://cloud.tencent.com/act/pro/tokenplan",
+      "parser": null,
+      "publishMode": "snapshot-review",
+      "codePlanAvailability": "token"
+    },
+    {
+      "providerId": "jdcloud",
+      "providerName": "京东云",
+      "type": "code-plan",
+      "url": "https://developer.jdcloud.com/topics/4467",
+      "parser": "jdcloudCodingPlan",
+      "publishMode": "auto-parse-review",
+      "codePlanAvailability": "available"
+    },
+    {
+      "providerId": "xfyun",
+      "providerName": "讯飞星火",
+      "type": "code-plan",
+      "url": "https://www.xfyun.cn/doc/spark/CodingPlan.html#四、套餐与计费",
+      "parser": "xfyunCodingPlan",
+      "publishMode": "auto-parse-review",
+      "codePlanAvailability": "available"
+    }
+  ]
+}
