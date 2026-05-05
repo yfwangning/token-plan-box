@@ -1,13 +1,13 @@
 # Official Price Update Report
 
-Generated at: 2026-05-04T04:41:05.716Z
+Generated at: 2026-05-05T04:17:17.782Z
 
 ## Summary
 
 - Sources checked: 20
 - Parsed API models: 3
 - Parsed plans: 15
-- Review items: 16
+- Review items: 17
 - Fetch failures: 0
 
 ## Parsed Plans
@@ -36,6 +36,7 @@ Generated at: 2026-05-04T04:41:05.716Z
 
 - [medium] 智谱 AI / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://bigmodel.cn/pricing)
 - [medium] 智谱 AI / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.bigmodel.cn/glm-coding?cc=fission_glmcode_sub_v1&ic=UX7NF0VZ4S&n=v)
+- [high] Kimi / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://platform.kimi.com/docs/pricing/chat-k26)
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.kimi.com/docs/pricing/chat-k26)
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.kimi.com/membership/pricing?track_id=ace3f1b9-bb9d-4941-887c-751e4b091694)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/docs/guides/pricing-paygo)
@@ -56,7 +57,7 @@ Generated at: 2026-05-04T04:41:05.716Z
 - DeepSeek / api-pricing: HTTP 200, 1310 chars, parser=deepseekPricing
 - 智谱 AI / api-pricing: HTTP 200, 113 chars, parser=none
 - 智谱 AI / code-plan-subscription: HTTP 200, 113 chars, parser=none
-- Kimi / api-pricing: HTTP 200, 812 chars, parser=none
+- Kimi / api-pricing: HTTP 200, 789 chars, parser=none
 - Kimi / membership-plan-subscription: HTTP 200, 23 chars, parser=none
 - MiniMax / pricing-overview: HTTP 200, 3114 chars, parser=none
 - MiniMax / token-plan: HTTP 200, 15 chars, parser=none
