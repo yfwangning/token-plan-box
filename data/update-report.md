@@ -1,13 +1,13 @@
 # Official Price Update Report
 
-Generated at: 2026-05-05T04:17:17.782Z
+Generated at: 2026-05-06T04:34:34.576Z
 
 ## Summary
 
 - Sources checked: 20
 - Parsed API models: 3
 - Parsed plans: 15
-- Review items: 17
+- Review items: 16
 - Fetch failures: 0
 
 ## Parsed Plans
@@ -36,7 +36,6 @@ Generated at: 2026-05-05T04:17:17.782Z
 
 - [medium] 智谱 AI / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://bigmodel.cn/pricing)
 - [medium] 智谱 AI / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.bigmodel.cn/glm-coding?cc=fission_glmcode_sub_v1&ic=UX7NF0VZ4S&n=v)
-- [high] Kimi / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://platform.kimi.com/docs/pricing/chat-k26)
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.kimi.com/docs/pricing/chat-k26)
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.kimi.com/membership/pricing?track_id=ace3f1b9-bb9d-4941-887c-751e4b091694)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/docs/guides/pricing-paygo)
@@ -66,7 +65,7 @@ Generated at: 2026-05-05T04:17:17.782Z
 - 小米 MiMo / token-plan-subscription: HTTP 200, 10287 chars, parser=mimoTokenPlan
 - 小米 MiMo / api-pricing: HTTP 200, 3921 chars, parser=mimoPricing
 - 火山方舟 / code-plan-subscription: HTTP 200, 172 chars, parser=none
-- 阿里百炼 / model-release: HTTP 200, 15165 chars, parser=none
+- 阿里百炼 / model-release: HTTP 200, 15133 chars, parser=none
 - 阿里百炼 / api-pricing: HTTP 200, 76210 chars, parser=none
 - 阿里百炼 / code-plan: HTTP 200, 3325 chars, parser=none
 - 阿里百炼 / token-plan: HTTP 200, 2587 chars, parser=aliyunTokenPlan
