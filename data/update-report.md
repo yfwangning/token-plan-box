@@ -1,13 +1,13 @@
 # Official Price Update Report
 
-Generated at: 2026-05-11T04:59:04.778Z
+Generated at: 2026-05-12T04:36:25.246Z
 
 ## Summary
 
 - Sources checked: 20
 - Parsed API models: 3
 - Parsed plans: 15
-- Review items: 17
+- Review items: 19
 - Fetch failures: 0
 
 ## Parsed Plans
@@ -40,6 +40,7 @@ Generated at: 2026-05-11T04:59:04.778Z
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.kimi.com/membership/pricing?track_id=ace3f1b9-bb9d-4941-887c-751e4b091694)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/docs/guides/pricing-paygo)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/subscribe/token-plan)
+- [high] 美团 LongCat / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://longcat.chat/platform/docs/zh/)
 - [medium] 美团 LongCat / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://longcat.chat/platform/docs/zh/)
 - [medium] 美团 LongCat / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://longcat.chat/platform/docs/zh/APIDocs.html)
 - [medium] 火山方舟 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.volcengine.com/activity/codingplan?ac=MMAP8JTTCAQ2&rc=T84FFCKU)
@@ -47,6 +48,7 @@ Generated at: 2026-05-11T04:59:04.778Z
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.alibabacloud.com/blog/603043)
 - [high] 阿里百炼 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://help.aliyun.com/zh/model-studio/model-pricing)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/model-pricing)
+- [high] 阿里百炼 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://help.aliyun.com/zh/model-studio/coding-plan)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/coding-plan)
 - [medium] 腾讯云 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://cloud.tencent.com/act/pro/tokenplan)
 - [medium] 京东云 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://developer.jdcloud.com/topics/4467)
@@ -61,14 +63,14 @@ Generated at: 2026-05-11T04:59:04.778Z
 - Kimi / membership-plan-subscription: HTTP 200, 49 chars, parser=none
 - MiniMax / pricing-overview: HTTP 200, 3106 chars, parser=none
 - MiniMax / token-plan: HTTP 200, 15 chars, parser=none
-- 美团 LongCat / official-entry: HTTP 200, 4952 chars, parser=none
+- 美团 LongCat / official-entry: HTTP 200, 4956 chars, parser=none
 - 美团 LongCat / api-docs: HTTP 200, 160916 chars, parser=none
 - 小米 MiMo / token-plan-subscription: HTTP 200, 10287 chars, parser=mimoTokenPlan
 - 小米 MiMo / api-pricing: HTTP 200, 3921 chars, parser=mimoPricing
 - 火山方舟 / code-plan-subscription: HTTP 200, 172 chars, parser=none
 - 阿里百炼 / model-release: HTTP 200, 15135 chars, parser=none
-- 阿里百炼 / api-pricing: HTTP 200, 79465 chars, parser=none
-- 阿里百炼 / code-plan: HTTP 200, 3611 chars, parser=none
+- 阿里百炼 / api-pricing: HTTP 200, 81826 chars, parser=none
+- 阿里百炼 / code-plan: HTTP 200, 3592 chars, parser=none
 - 阿里百炼 / token-plan: HTTP 200, 2653 chars, parser=aliyunTokenPlan
 - 百度千帆 / code-plan: HTTP 200, 890 chars, parser=baiduCodingPlan
 - 腾讯云 / token-plan: HTTP 200, 3716 chars, parser=none
