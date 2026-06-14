@@ -1,13 +1,13 @@
 # Official Price Update Report
 
-Generated at: 2026-06-13T05:21:51.775Z
+Generated at: 2026-06-14T05:50:45.789Z
 
 ## Summary
 
 - Sources checked: 20
 - Parsed API models: 3
 - Parsed plans: 12
-- Review items: 19
+- Review items: 17
 - Fetch failures: 0
 
 ## Parsed Plans
@@ -33,7 +33,6 @@ Generated at: 2026-06-13T05:21:51.775Z
 
 - [medium] 智谱 AI / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://bigmodel.cn/pricing)
 - [medium] 智谱 AI / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.bigmodel.cn/glm-coding?cc=fission_glmcode_sub_v1&ic=UX7NF0VZ4S&n=v)
-- [high] Kimi / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://platform.kimi.com/docs/pricing/chat-k26)
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.kimi.com/docs/pricing/chat-k26)
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.kimi.com/membership/pricing?track_id=ace3f1b9-bb9d-4941-887c-751e4b091694)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/docs/guides/pricing-paygo)
@@ -48,7 +47,6 @@ Generated at: 2026-06-13T05:21:51.775Z
 - [medium] 腾讯云 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://cloud.tencent.com/act/pro/tokenplan)
 - [medium] 京东云 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://developer.jdcloud.com/topics/4467)
 - [medium] 京东云 / plan-quota-missing: 京东云官方活动规则页仅公开首购价和原价，未公开每 5 小时/每周/每月调用额度。 (https://developer.jdcloud.com/topics/4467)
-- [medium] 讯飞星火 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://www.xfyun.cn/doc/spark/CodingPlan.html#四、套餐与计费)
 - [high] 讯飞星火 / parse-failed: 抓取成功，但未能从官方页面解析 4.2 焕新版 Coding Plan 的完整价格或上下文信息。 (https://www.xfyun.cn/doc/spark/CodingPlan.html#四、套餐与计费)
 
 ## Source Health
