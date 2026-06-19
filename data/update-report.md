@@ -1,6 +1,6 @@
 # Official Price Update Report
 
-Generated at: 2026-06-18T05:57:02.551Z
+Generated at: 2026-06-19T06:22:15.642Z
 
 ## Summary
 
@@ -45,7 +45,7 @@ Generated at: 2026-06-18T05:57:02.551Z
 - [high] 阿里百炼 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://help.aliyun.com/zh/model-studio/model-pricing)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/model-pricing)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/coding-plan)
-- [high] 腾讯云 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://cloud.tencent.com/act/pro/tokenplan)
+- [medium] 阿里百炼 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://help.aliyun.com/zh/model-studio/token-plan-overview)
 - [medium] 腾讯云 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://cloud.tencent.com/act/pro/tokenplan)
 - [medium] 京东云 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://developer.jdcloud.com/topics/4467)
 - [medium] 京东云 / plan-quota-missing: 京东云官方活动规则页仅公开首购价和原价，未公开每 5 小时/每周/每月调用额度。 (https://developer.jdcloud.com/topics/4467)
@@ -66,11 +66,11 @@ Generated at: 2026-06-18T05:57:02.551Z
 - 小米 MiMo / token-plan-subscription: HTTP 200, 10287 chars, parser=mimoTokenPlan
 - 小米 MiMo / api-pricing: HTTP 200, 3921 chars, parser=mimoPricing
 - 火山方舟 / code-plan-subscription: HTTP 200, 176 chars, parser=none
-- 阿里百炼 / model-release: HTTP 200, 15016 chars, parser=none
-- 阿里百炼 / api-pricing: HTTP 200, 85596 chars, parser=none
+- 阿里百炼 / model-release: HTTP 200, 15129 chars, parser=none
+- 阿里百炼 / api-pricing: HTTP 200, 87614 chars, parser=none
 - 阿里百炼 / code-plan: HTTP 200, 3798 chars, parser=none
-- 阿里百炼 / token-plan: HTTP 200, 3657 chars, parser=aliyunTokenPlan
+- 阿里百炼 / token-plan: HTTP 200, 3687 chars, parser=aliyunTokenPlan
 - 百度千帆 / code-plan: HTTP 200, 890 chars, parser=baiduCodingPlan
 - 腾讯云 / token-plan: HTTP 200, 3869 chars, parser=none
 - 京东云 / code-plan: HTTP 200, 1748 chars, parser=jdcloudCodingPlan
-- 讯飞星火 / code-plan: HTTP 200, 15635 chars, parser=xfyunCodingPlan
+- 讯飞星火 / code-plan: HTTP 200, 15652 chars, parser=xfyunCodingPlan
