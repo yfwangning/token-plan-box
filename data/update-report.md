@@ -1,13 +1,13 @@
 # Official Price Update Report
 
-Generated at: 2026-06-28T05:18:26.334Z
+Generated at: 2026-06-29T05:51:27.516Z
 
 ## Summary
 
 - Sources checked: 20
 - Parsed API models: 3
 - Parsed plans: 12
-- Review items: 17
+- Review items: 18
 - Fetch failures: 0
 
 ## Parsed Plans
@@ -47,6 +47,7 @@ Generated at: 2026-06-28T05:18:26.334Z
 - [medium] 腾讯云 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://cloud.tencent.com/act/pro/tokenplan)
 - [medium] 京东云 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://developer.jdcloud.com/topics/4467)
 - [medium] 京东云 / plan-quota-missing: 京东云官方活动规则页仅公开首购价和原价，未公开每 5 小时/每周/每月调用额度。 (https://developer.jdcloud.com/topics/4467)
+- [medium] 讯飞星火 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://www.xfyun.cn/doc/spark/CodingPlan.html#四、套餐与计费)
 - [high] 讯飞星火 / parse-failed: 抓取成功，但未能从官方页面解析 4.2 焕新版 Coding Plan 的完整价格或上下文信息。 (https://www.xfyun.cn/doc/spark/CodingPlan.html#四、套餐与计费)
 
 ## Source Health
@@ -70,4 +71,4 @@ Generated at: 2026-06-28T05:18:26.334Z
 - 百度千帆 / code-plan: HTTP 200, 890 chars, parser=baiduCodingPlan
 - 腾讯云 / token-plan: HTTP 200, 4101 chars, parser=none
 - 京东云 / code-plan: HTTP 200, 1748 chars, parser=jdcloudCodingPlan
-- 讯飞星火 / code-plan: HTTP 200, 15717 chars, parser=xfyunCodingPlan
+- 讯飞星火 / code-plan: HTTP 200, 15724 chars, parser=xfyunCodingPlan
