@@ -1,21 +1,17 @@
 # Official Price Update Report
 
-Generated at: 2026-07-09T04:54:51.747Z
+Generated at: 2026-07-10T04:53:02.423Z
 
 ## Summary
 
 - Sources checked: 20
-- Parsed API models: 3
-- Parsed plans: 12
-- Review items: 23
-- Fetch failures: 0
+- Parsed API models: 2
+- Parsed plans: 8
+- Review items: 21
+- Fetch failures: 2
 
 ## Parsed Plans
 
-- mimo / MiMo Token Plan Lite: ¥39; 60M Credits/月；约 120 轮中复杂任务
-- mimo / MiMo Token Plan Standard: ¥99; 200M Credits/月；约 400 轮中复杂任务
-- mimo / MiMo Token Plan Pro: ¥329; 700M Credits/月；约 1,400 轮中复杂任务
-- mimo / MiMo Token Plan Max: ¥659; 1600M Credits/月；约 3,200 轮中复杂任务
 - aliyun / Token Plan 团队版 标准坐席: ¥198/坐席; 25,000 Credits/坐席/月；适合轻度使用 AI 辅助的团队成员
 - aliyun / Token Plan 团队版 高级坐席: ¥698/坐席; 100,000 Credits/坐席/月；适合日常高频使用 AI 编码的团队成员
 - aliyun / Token Plan 团队版 尊享坐席: ¥1,398/坐席; 250,000 Credits/坐席/月；适合重度依赖 AI 编码的核心开发者
@@ -35,21 +31,19 @@ Generated at: 2026-07-09T04:54:51.747Z
 - [medium] 智谱 AI / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.bigmodel.cn/glm-coding?cc=fission_glmcode_sub_v1&ic=UX7NF0VZ4S&n=v)
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.kimi.com/docs/pricing/chat-k26)
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.kimi.com/membership/pricing?track_id=ace3f1b9-bb9d-4941-887c-751e4b091694)
-- [high] MiniMax / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://platform.minimaxi.com/docs/guides/pricing-paygo)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/docs/guides/pricing-paygo)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/subscribe/token-plan)
-- [high] 美团 LongCat / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://longcat.chat/platform/docs/zh/)
 - [medium] 美团 LongCat / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://longcat.chat/platform/docs/zh/)
-- [high] 美团 LongCat / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://longcat.chat/platform/docs/zh/APIDocs.html)
 - [medium] 美团 LongCat / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://longcat.chat/platform/docs/zh/APIDocs.html)
+- [high] 小米 MiMo / fetch-failed: 无法抓取官方来源：HTTP 404 (https://platform.xiaomimimo.com/static/docs/tokenplan/subscription.md)
+- [high] 小米 MiMo / fetch-failed: 无法抓取官方来源：HTTP 404 (https://platform.xiaomimimo.com/static/docs/pricing.md)
 - [medium] 火山方舟 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.volcengine.com/activity/codingplan?ac=MMAP8JTTCAQ2&rc=T84FFCKU)
 - [high] 阿里百炼 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://www.alibabacloud.com/blog/603043)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.alibabacloud.com/blog/603043)
 - [high] 阿里百炼 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://help.aliyun.com/zh/model-studio/model-pricing)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/model-pricing)
-- [high] 阿里百炼 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://help.aliyun.com/zh/model-studio/coding-plan)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/coding-plan)
-- [medium] 阿里百炼 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://help.aliyun.com/zh/model-studio/token-plan-overview)
+- [high] 腾讯云 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://cloud.tencent.com/act/pro/tokenplan)
 - [medium] 腾讯云 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://cloud.tencent.com/act/pro/tokenplan)
 - [medium] 京东云 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://developer.jdcloud.com/topics/4467)
 - [medium] 京东云 / plan-quota-missing: 京东云官方活动规则页仅公开首购价和原价，未公开每 5 小时/每周/每月调用额度。 (https://developer.jdcloud.com/topics/4467)
@@ -66,14 +60,14 @@ Generated at: 2026-07-09T04:54:51.747Z
 - MiniMax / token-plan: HTTP 200, 16 chars, parser=none
 - 美团 LongCat / official-entry: HTTP 200, 3956 chars, parser=none
 - 美团 LongCat / api-docs: HTTP 200, 2040 chars, parser=none
-- 小米 MiMo / token-plan-subscription: HTTP 200, 10287 chars, parser=mimoTokenPlan
-- 小米 MiMo / api-pricing: HTTP 200, 3921 chars, parser=mimoPricing
+- 小米 MiMo / token-plan-subscription: HTTP 404, 37 chars, parser=mimoTokenPlan
+- 小米 MiMo / api-pricing: HTTP 404, 37 chars, parser=mimoPricing
 - 火山方舟 / code-plan-subscription: HTTP 200, 176 chars, parser=none
-- 阿里百炼 / model-release: HTTP 200, 14823 chars, parser=none
-- 阿里百炼 / api-pricing: HTTP 200, 90429 chars, parser=none
+- 阿里百炼 / model-release: HTTP 200, 14813 chars, parser=none
+- 阿里百炼 / api-pricing: HTTP 200, 91376 chars, parser=none
 - 阿里百炼 / code-plan: HTTP 200, 3791 chars, parser=none
 - 阿里百炼 / token-plan: HTTP 200, 3923 chars, parser=aliyunTokenPlan
 - 百度千帆 / code-plan: HTTP 200, 890 chars, parser=baiduCodingPlan
-- 腾讯云 / token-plan: HTTP 200, 4161 chars, parser=none
+- 腾讯云 / token-plan: HTTP 200, 4180 chars, parser=none
 - 京东云 / code-plan: HTTP 200, 1748 chars, parser=jdcloudCodingPlan
 - 讯飞星火 / code-plan: HTTP 200, 16210 chars, parser=xfyunCodingPlan
