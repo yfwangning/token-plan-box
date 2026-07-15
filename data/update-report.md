@@ -1,13 +1,13 @@
 # Official Price Update Report
 
-Generated at: 2026-07-14T03:57:18.373Z
+Generated at: 2026-07-15T04:05:47.130Z
 
 ## Summary
 
 - Sources checked: 20
 - Parsed API models: 2
 - Parsed plans: 6
-- Review items: 22
+- Review items: 23
 - Fetch failures: 2
 
 ## Parsed Plans
@@ -27,12 +27,13 @@ Generated at: 2026-07-14T03:57:18.373Z
 
 - [medium] 智谱 AI / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://bigmodel.cn/pricing)
 - [medium] 智谱 AI / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.bigmodel.cn/glm-coding?cc=fission_glmcode_sub_v1&ic=UX7NF0VZ4S&n=v)
-- [high] Kimi / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://platform.kimi.com/docs/pricing/chat-k26)
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.kimi.com/docs/pricing/chat-k26)
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.kimi.com/membership/pricing?track_id=ace3f1b9-bb9d-4941-887c-751e4b091694)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/docs/guides/pricing-paygo)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/subscribe/token-plan)
+- [high] 美团 LongCat / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://longcat.chat/platform/docs/zh/)
 - [medium] 美团 LongCat / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://longcat.chat/platform/docs/zh/)
+- [high] 美团 LongCat / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://longcat.chat/platform/docs/zh/APIDocs.html)
 - [medium] 美团 LongCat / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://longcat.chat/platform/docs/zh/APIDocs.html)
 - [high] 小米 MiMo / fetch-failed: 无法抓取官方来源：HTTP 404 (https://platform.xiaomimimo.com/static/docs/tokenplan/subscription.md)
 - [high] 小米 MiMo / fetch-failed: 无法抓取官方来源：HTTP 404 (https://platform.xiaomimimo.com/static/docs/pricing.md)
@@ -57,13 +58,13 @@ Generated at: 2026-07-14T03:57:18.373Z
 - Kimi / membership-plan-subscription: HTTP 200, 49 chars, parser=none
 - MiniMax / pricing-overview: HTTP 200, 4002 chars, parser=none
 - MiniMax / token-plan: HTTP 200, 16 chars, parser=none
-- 美团 LongCat / official-entry: HTTP 200, 3956 chars, parser=none
-- 美团 LongCat / api-docs: HTTP 200, 2040 chars, parser=none
+- 美团 LongCat / official-entry: HTTP 200, 3961 chars, parser=none
+- 美团 LongCat / api-docs: HTTP 200, 2045 chars, parser=none
 - 小米 MiMo / token-plan-subscription: HTTP 404, 37 chars, parser=mimoTokenPlan
 - 小米 MiMo / api-pricing: HTTP 404, 37 chars, parser=mimoPricing
 - 火山方舟 / code-plan-subscription: HTTP 200, 176 chars, parser=none
 - 阿里百炼 / model-release: HTTP 200, 14878 chars, parser=none
-- 阿里百炼 / api-pricing: HTTP 200, 92203 chars, parser=none
+- 阿里百炼 / api-pricing: HTTP 200, 93825 chars, parser=none
 - 阿里百炼 / code-plan: HTTP 200, 3791 chars, parser=none
 - 阿里百炼 / token-plan: HTTP 200, 3923 chars, parser=aliyunTokenPlan
 - 百度千帆 / code-plan: HTTP 200, 1646 chars, parser=baiduCodingPlan
