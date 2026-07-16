@@ -1,6 +1,6 @@
 # Official Price Update Report
 
-Generated at: 2026-07-15T04:05:47.130Z
+Generated at: 2026-07-16T04:09:18.953Z
 
 ## Summary
 
@@ -31,9 +31,7 @@ Generated at: 2026-07-15T04:05:47.130Z
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.kimi.com/membership/pricing?track_id=ace3f1b9-bb9d-4941-887c-751e4b091694)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/docs/guides/pricing-paygo)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/subscribe/token-plan)
-- [high] 美团 LongCat / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://longcat.chat/platform/docs/zh/)
 - [medium] 美团 LongCat / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://longcat.chat/platform/docs/zh/)
-- [high] 美团 LongCat / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://longcat.chat/platform/docs/zh/APIDocs.html)
 - [medium] 美团 LongCat / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://longcat.chat/platform/docs/zh/APIDocs.html)
 - [high] 小米 MiMo / fetch-failed: 无法抓取官方来源：HTTP 404 (https://platform.xiaomimimo.com/static/docs/tokenplan/subscription.md)
 - [high] 小米 MiMo / fetch-failed: 无法抓取官方来源：HTTP 404 (https://platform.xiaomimimo.com/static/docs/pricing.md)
@@ -42,7 +40,9 @@ Generated at: 2026-07-15T04:05:47.130Z
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.alibabacloud.com/blog/603043)
 - [high] 阿里百炼 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://help.aliyun.com/zh/model-studio/model-pricing)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/model-pricing)
+- [high] 阿里百炼 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://help.aliyun.com/zh/model-studio/coding-plan)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/coding-plan)
+- [medium] 阿里百炼 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://help.aliyun.com/zh/model-studio/token-plan-overview)
 - [high] 百度千帆 / parse-failed: 抓取成功，但未能从官方页面解析 Coding Plan Lite/Pro 的完整价格或上下文信息。 (https://cloud.baidu.com/product/codingplan.html)
 - [medium] 腾讯云 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://cloud.tencent.com/act/pro/tokenplan)
 - [medium] 京东云 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://developer.jdcloud.com/topics/4467)
@@ -63,10 +63,10 @@ Generated at: 2026-07-15T04:05:47.130Z
 - 小米 MiMo / token-plan-subscription: HTTP 404, 37 chars, parser=mimoTokenPlan
 - 小米 MiMo / api-pricing: HTTP 404, 37 chars, parser=mimoPricing
 - 火山方舟 / code-plan-subscription: HTTP 200, 176 chars, parser=none
-- 阿里百炼 / model-release: HTTP 200, 14878 chars, parser=none
-- 阿里百炼 / api-pricing: HTTP 200, 93825 chars, parser=none
-- 阿里百炼 / code-plan: HTTP 200, 3791 chars, parser=none
-- 阿里百炼 / token-plan: HTTP 200, 3923 chars, parser=aliyunTokenPlan
+- 阿里百炼 / model-release: HTTP 200, 14918 chars, parser=none
+- 阿里百炼 / api-pricing: HTTP 200, 94238 chars, parser=none
+- 阿里百炼 / code-plan: HTTP 200, 3795 chars, parser=none
+- 阿里百炼 / token-plan: HTTP 200, 4588 chars, parser=aliyunTokenPlan
 - 百度千帆 / code-plan: HTTP 200, 1646 chars, parser=baiduCodingPlan
 - 腾讯云 / token-plan: HTTP 200, 4180 chars, parser=none
 - 京东云 / code-plan: HTTP 200, 1748 chars, parser=jdcloudCodingPlan
