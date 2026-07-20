@@ -1,21 +1,17 @@
 # Official Price Update Report
 
-Generated at: 2026-07-19T04:21:32.472Z
+Generated at: 2026-07-20T04:35:49.416Z
 
 ## Summary
 
 - Sources checked: 20
 - Parsed API models: 2
-- Parsed plans: 6
+- Parsed plans: 2
 - Review items: 22
 - Fetch failures: 2
 
 ## Parsed Plans
 
-- aliyun / Token Plan 团队版 标准坐席: ¥198/坐席; 25,000 Credits/坐席/月；适合轻度使用 AI 辅助的团队成员
-- aliyun / Token Plan 团队版 高级坐席: ¥698/坐席; 100,000 Credits/坐席/月；适合日常高频使用 AI 编码的团队成员
-- aliyun / Token Plan 团队版 尊享坐席: ¥1,398/坐席; 250,000 Credits/坐席/月；适合重度依赖 AI 编码的核心开发者
-- aliyun / Token Plan 团队版 共享用量包: ¥5,000/个; 跨坐席共享；坐席额度超出后抵扣，多个包优先抵扣最近到期
 - jdcloud / 京东云 Coding Plan Lite: 首月 ¥19.9; ¥40; 1 个月订阅；新用户首订特惠 ¥19.9，售罄后原价 ¥40/月
 - jdcloud / 京东云 Coding Plan Pro: 首月 ¥99.9; ¥200; 1 个月订阅；新用户首订特惠 ¥99.9，售罄后原价 ¥200/月
 
@@ -39,9 +35,9 @@ Generated at: 2026-07-19T04:21:32.472Z
 - [high] 阿里百炼 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://www.alibabacloud.com/blog/603043)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.alibabacloud.com/blog/603043)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/model-pricing)
-- [high] 阿里百炼 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://help.aliyun.com/zh/model-studio/coding-plan)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/coding-plan)
 - [medium] 阿里百炼 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://help.aliyun.com/zh/model-studio/token-plan-overview)
+- [high] 阿里百炼 / parse-failed: 抓取成功，但未能从官方页面解析 标准坐席 的完整价格或上下文信息。 (https://help.aliyun.com/zh/model-studio/token-plan-overview)
 - [high] 百度千帆 / parse-failed: 抓取成功，但未能从官方页面解析 Coding Plan Lite/Pro 的完整价格或上下文信息。 (https://cloud.baidu.com/product/codingplan.html)
 - [medium] 腾讯云 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://cloud.tencent.com/act/pro/tokenplan)
 - [medium] 京东云 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://developer.jdcloud.com/topics/4467)
@@ -65,7 +61,7 @@ Generated at: 2026-07-19T04:21:32.472Z
 - 阿里百炼 / model-release: HTTP 200, 14975 chars, parser=none
 - 阿里百炼 / api-pricing: HTTP 200, 94379 chars, parser=none
 - 阿里百炼 / code-plan: HTTP 200, 3790 chars, parser=none
-- 阿里百炼 / token-plan: HTTP 200, 4587 chars, parser=aliyunTokenPlan
+- 阿里百炼 / token-plan: HTTP 200, 2984 chars, parser=aliyunTokenPlan
 - 百度千帆 / code-plan: HTTP 200, 1646 chars, parser=baiduCodingPlan
 - 腾讯云 / token-plan: HTTP 200, 4180 chars, parser=none
 - 京东云 / code-plan: HTTP 200, 1748 chars, parser=jdcloudCodingPlan
