@@ -1,19 +1,18 @@
 # Official Price Update Report
 
-Generated at: 2026-07-31T04:23:23.103Z
+Generated at: 2026-08-01T04:21:41.084Z
 
 ## Summary
 
 - Sources checked: 20
 - Parsed API models: 2
-- Parsed plans: 2
-- Review items: 23
-- Fetch failures: 2
+- Parsed plans: 0
+- Review items: 25
+- Fetch failures: 3
 
 ## Parsed Plans
 
-- jdcloud / 京东云 Coding Plan Lite: 首月 ¥19.9; ¥40; 1 个月订阅；新用户首订特惠 ¥19.9，售罄后原价 ¥40/月
-- jdcloud / 京东云 Coding Plan Pro: 首月 ¥99.9; ¥200; 1 个月订阅；新用户首订特惠 ¥99.9，售罄后原价 ¥200/月
+- None
 
 ## Changes
 
@@ -21,8 +20,10 @@ Generated at: 2026-07-31T04:23:23.103Z
 
 ## Review Queue
 
+- [medium] DeepSeek / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://api-docs.deepseek.com/zh-cn/quick_start/pricing)
 - [medium] 智谱 AI / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://bigmodel.cn/pricing)
 - [medium] 智谱 AI / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.bigmodel.cn/glm-coding?cc=fission_glmcode_sub_v1&ic=UX7NF0VZ4S&n=v)
+- [high] Kimi / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://platform.kimi.com/docs/pricing/chat-k26)
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.kimi.com/docs/pricing/chat-k26)
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.kimi.com/membership/pricing?track_id=ace3f1b9-bb9d-4941-887c-751e4b091694)
 - [high] MiniMax / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://platform.minimaxi.com/docs/guides/pricing-paygo)
@@ -40,30 +41,30 @@ Generated at: 2026-07-31T04:23:23.103Z
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/coding-plan)
 - [high] 阿里百炼 / parse-failed: 抓取成功，但未能从官方页面解析 标准坐席 的完整价格或上下文信息。 (https://help.aliyun.com/zh/model-studio/token-plan-overview)
 - [high] 百度千帆 / parse-failed: 抓取成功，但未能从官方页面解析 Coding Plan Lite/Pro 的完整价格或上下文信息。 (https://cloud.baidu.com/product/codingplan.html)
+- [high] 腾讯云 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://cloud.tencent.com/act/pro/tokenplan)
 - [medium] 腾讯云 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://cloud.tencent.com/act/pro/tokenplan)
-- [medium] 京东云 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://developer.jdcloud.com/topics/4467)
-- [medium] 京东云 / plan-quota-missing: 京东云官方活动规则页仅公开首购价和原价，未公开每 5 小时/每周/每月调用额度。 (https://developer.jdcloud.com/topics/4467)
+- [high] 京东云 / fetch-failed: 无法抓取官方来源：HTTP 500 (https://developer.jdcloud.com/topics/4467)
 - [high] 讯飞星火 / parse-failed: 抓取成功，但未能从官方页面解析 4.2 焕新版 Coding Plan 的完整价格或上下文信息。 (https://www.xfyun.cn/doc/spark/CodingPlan.html#四、套餐与计费)
 
 ## Source Health
 
-- DeepSeek / api-pricing: HTTP 200, 1080 chars, parser=deepseekPricing
+- DeepSeek / api-pricing: HTTP 200, 1376 chars, parser=deepseekPricing
 - 智谱 AI / api-pricing: HTTP 200, 113 chars, parser=none
 - 智谱 AI / code-plan-subscription: HTTP 200, 113 chars, parser=none
-- Kimi / api-pricing: HTTP 200, 848 chars, parser=none
+- Kimi / api-pricing: HTTP 200, 854 chars, parser=none
 - Kimi / membership-plan-subscription: HTTP 200, 59 chars, parser=none
-- MiniMax / pricing-overview: HTTP 200, 4215 chars, parser=none
+- MiniMax / pricing-overview: HTTP 200, 4462 chars, parser=none
 - MiniMax / token-plan: HTTP 200, 16 chars, parser=none
 - 美团 LongCat / official-entry: HTTP 200, 3961 chars, parser=none
 - 美团 LongCat / api-docs: HTTP 200, 2045 chars, parser=none
 - 小米 MiMo / token-plan-subscription: HTTP 404, 37 chars, parser=mimoTokenPlan
 - 小米 MiMo / api-pricing: HTTP 404, 37 chars, parser=mimoPricing
 - 火山方舟 / code-plan-subscription: HTTP 200, 176 chars, parser=none
-- 阿里百炼 / model-release: HTTP 200, 14816 chars, parser=none
-- 阿里百炼 / api-pricing: HTTP 200, 96051 chars, parser=none
+- 阿里百炼 / model-release: HTTP 200, 14887 chars, parser=none
+- 阿里百炼 / api-pricing: HTTP 200, 96341 chars, parser=none
 - 阿里百炼 / code-plan: HTTP 200, 3792 chars, parser=none
 - 阿里百炼 / token-plan: HTTP 200, 3042 chars, parser=aliyunTokenPlan
 - 百度千帆 / code-plan: HTTP 200, 1646 chars, parser=baiduCodingPlan
-- 腾讯云 / token-plan: HTTP 200, 6042 chars, parser=none
-- 京东云 / code-plan: HTTP 200, 1748 chars, parser=jdcloudCodingPlan
+- 腾讯云 / token-plan: HTTP 200, 6061 chars, parser=none
+- 京东云 / code-plan: HTTP 500, 91 chars, parser=jdcloudCodingPlan
 - 讯飞星火 / code-plan: HTTP 200, 16829 chars, parser=xfyunCodingPlan
