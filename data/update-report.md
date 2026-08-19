@@ -1,6 +1,6 @@
 # Official Price Update Report
 
-Generated at: 2026-08-18T02:15:08.856Z
+Generated at: 2026-08-19T02:18:06.247Z
 
 ## Summary
 
@@ -20,10 +20,11 @@ Generated at: 2026-08-18T02:15:08.856Z
 
 ## Review Queue
 
+- [high] 智谱 AI / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://bigmodel.cn/pricing)
 - [medium] 智谱 AI / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://bigmodel.cn/pricing)
+- [high] 智谱 AI / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://www.bigmodel.cn/glm-coding?cc=fission_glmcode_sub_v1&ic=UX7NF0VZ4S&n=v)
 - [medium] 智谱 AI / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.bigmodel.cn/glm-coding?cc=fission_glmcode_sub_v1&ic=UX7NF0VZ4S&n=v)
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.kimi.com/docs/pricing/chat-k26)
-- [high] Kimi / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://www.kimi.com/membership/pricing?track_id=ace3f1b9-bb9d-4941-887c-751e4b091694)
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.kimi.com/membership/pricing?track_id=ace3f1b9-bb9d-4941-887c-751e4b091694)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/docs/guides/pricing-paygo)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/subscribe/token-plan)
@@ -36,7 +37,6 @@ Generated at: 2026-08-18T02:15:08.856Z
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.alibabacloud.com/blog/603043)
 - [high] 阿里百炼 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://help.aliyun.com/zh/model-studio/model-pricing)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/model-pricing)
-- [high] 阿里百炼 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://help.aliyun.com/zh/model-studio/coding-plan)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/coding-plan)
 - [high] 阿里百炼 / parse-failed: 抓取成功，但未能从官方页面解析 标准坐席 的完整价格或上下文信息。 (https://help.aliyun.com/zh/model-studio/token-plan-overview)
 - [high] 百度千帆 / parse-failed: 抓取成功，但未能从官方页面解析 Coding Plan Lite/Pro 的完整价格或上下文信息。 (https://cloud.baidu.com/product/codingplan.html)
@@ -47,8 +47,8 @@ Generated at: 2026-08-18T02:15:08.856Z
 ## Source Health
 
 - DeepSeek / api-pricing: HTTP 200, 1294 chars, parser=deepseekPricing
-- 智谱 AI / api-pricing: HTTP 200, 113 chars, parser=none
-- 智谱 AI / code-plan-subscription: HTTP 200, 113 chars, parser=none
+- 智谱 AI / api-pricing: HTTP 200, 125 chars, parser=none
+- 智谱 AI / code-plan-subscription: HTTP 200, 125 chars, parser=none
 - Kimi / api-pricing: HTTP 200, 896 chars, parser=none
 - Kimi / membership-plan-subscription: HTTP 200, 33 chars, parser=none
 - MiniMax / pricing-overview: HTTP 200, 4863 chars, parser=none
@@ -58,8 +58,8 @@ Generated at: 2026-08-18T02:15:08.856Z
 - 小米 MiMo / token-plan-subscription: HTTP 404, 37 chars, parser=mimoTokenPlan
 - 小米 MiMo / api-pricing: HTTP 404, 37 chars, parser=mimoPricing
 - 火山方舟 / code-plan-subscription: HTTP 200, 176 chars, parser=none
-- 阿里百炼 / model-release: HTTP 200, 14865 chars, parser=none
-- 阿里百炼 / api-pricing: HTTP 200, 100886 chars, parser=none
+- 阿里百炼 / model-release: HTTP 200, 14925 chars, parser=none
+- 阿里百炼 / api-pricing: HTTP 200, 101074 chars, parser=none
 - 阿里百炼 / code-plan: HTTP 200, 3718 chars, parser=none
 - 阿里百炼 / token-plan: HTTP 200, 2901 chars, parser=aliyunTokenPlan
 - 百度千帆 / code-plan: HTTP 200, 1917 chars, parser=baiduCodingPlan
