@@ -1,13 +1,13 @@
 # Official Price Update Report
 
-Generated at: 2026-09-15T05:55:41.776Z
+Generated at: 2026-09-16T05:42:30.190Z
 
 ## Summary
 
 - Sources checked: 20
 - Parsed API models: 0
 - Parsed plans: 0
-- Review items: 24
+- Review items: 26
 - Fetch failures: 3
 
 ## Parsed Plans
@@ -33,13 +33,15 @@ Generated at: 2026-09-15T05:55:41.776Z
 - [medium] 美团 LongCat / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://longcat.chat/platform/docs/zh/APIDocs.html)
 - [high] 小米 MiMo / fetch-failed: 无法抓取官方来源：HTTP 404 (https://platform.xiaomimimo.com/static/docs/tokenplan/subscription.md)
 - [high] 小米 MiMo / fetch-failed: 无法抓取官方来源：HTTP 404 (https://platform.xiaomimimo.com/static/docs/pricing.md)
-- [high] 火山方舟 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://www.volcengine.com/activity/codingplan?ac=MMAP8JTTCAQ2&rc=T84FFCKU)
 - [medium] 火山方舟 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.volcengine.com/activity/codingplan?ac=MMAP8JTTCAQ2&rc=T84FFCKU)
 - [high] 阿里百炼 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://www.alibabacloud.com/blog/603043)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.alibabacloud.com/blog/603043)
+- [high] 阿里百炼 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://help.aliyun.com/zh/model-studio/model-pricing)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/model-pricing)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/coding-plan)
+- [medium] 阿里百炼 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://help.aliyun.com/zh/model-studio/token-plan-overview)
 - [high] 阿里百炼 / parse-failed: 抓取成功，但未能从官方页面解析 标准坐席 的完整价格或上下文信息。 (https://help.aliyun.com/zh/model-studio/token-plan-overview)
+- [medium] 百度千帆 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://cloud.baidu.com/product/codingplan.html)
 - [high] 百度千帆 / parse-failed: 抓取成功，但未能从官方页面解析 Coding Plan Lite/Pro 的完整价格或上下文信息。 (https://cloud.baidu.com/product/codingplan.html)
 - [medium] 腾讯云 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://cloud.tencent.com/act/pro/tokenplan)
 - [high] 京东云 / fetch-failed: 无法抓取官方来源：HTTP 500 (https://developer.jdcloud.com/topics/4467)
@@ -50,7 +52,7 @@ Generated at: 2026-09-15T05:55:41.776Z
 - DeepSeek / api-pricing: HTTP 200, 1569 chars, parser=deepseekPricing
 - 智谱 AI / api-pricing: HTTP 200, 125 chars, parser=none
 - 智谱 AI / code-plan-subscription: HTTP 200, 125 chars, parser=none
-- Kimi / api-pricing: HTTP 200, 1102 chars, parser=none
+- Kimi / api-pricing: HTTP 200, 1105 chars, parser=none
 - Kimi / membership-plan-subscription: HTTP 200, 33 chars, parser=none
 - MiniMax / pricing-overview: HTTP 200, 4921 chars, parser=none
 - MiniMax / token-plan: HTTP 200, 16 chars, parser=none
@@ -60,10 +62,10 @@ Generated at: 2026-09-15T05:55:41.776Z
 - 小米 MiMo / api-pricing: HTTP 404, 37 chars, parser=mimoPricing
 - 火山方舟 / code-plan-subscription: HTTP 200, 5628 chars, parser=none
 - 阿里百炼 / model-release: HTTP 200, 15029 chars, parser=none
-- 阿里百炼 / api-pricing: HTTP 200, 103783 chars, parser=none
+- 阿里百炼 / api-pricing: HTTP 200, 103985 chars, parser=none
 - 阿里百炼 / code-plan: HTTP 200, 3787 chars, parser=none
-- 阿里百炼 / token-plan: HTTP 200, 3006 chars, parser=aliyunTokenPlan
-- 百度千帆 / code-plan: HTTP 200, 1975 chars, parser=baiduCodingPlan
+- 阿里百炼 / token-plan: HTTP 200, 2626 chars, parser=aliyunTokenPlan
+- 百度千帆 / code-plan: HTTP 200, 1945 chars, parser=baiduCodingPlan
 - 腾讯云 / token-plan: HTTP 200, 4390 chars, parser=none
 - 京东云 / code-plan: HTTP 500, 91 chars, parser=jdcloudCodingPlan
 - 讯飞星火 / code-plan: HTTP 200, 16714 chars, parser=xfyunCodingPlan
