@@ -1,13 +1,13 @@
 # Official Price Update Report
 
-Generated at: 2026-09-16T05:42:30.190Z
+Generated at: 2026-09-17T05:51:16.064Z
 
 ## Summary
 
 - Sources checked: 20
 - Parsed API models: 0
 - Parsed plans: 0
-- Review items: 26
+- Review items: 24
 - Fetch failures: 3
 
 ## Parsed Plans
@@ -24,9 +24,9 @@ Generated at: 2026-09-16T05:42:30.190Z
 - [high] DeepSeek / parse-failed: 抓取成功，但未能从官方页面解析 deepseek-v4-pro 的完整价格或上下文信息。 (https://api-docs.deepseek.com/zh-cn/quick_start/pricing)
 - [medium] 智谱 AI / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://bigmodel.cn/pricing)
 - [medium] 智谱 AI / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.bigmodel.cn/glm-coding?cc=fission_glmcode_sub_v1&ic=UX7NF0VZ4S&n=v)
-- [high] Kimi / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://platform.kimi.com/docs/pricing/chat-k26)
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.kimi.com/docs/pricing/chat-k26)
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.kimi.com/membership/pricing?track_id=ace3f1b9-bb9d-4941-887c-751e4b091694)
+- [high] MiniMax / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://platform.minimaxi.com/docs/guides/pricing-paygo)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/docs/guides/pricing-paygo)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/subscribe/token-plan)
 - [medium] 美团 LongCat / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://longcat.chat/platform/docs/zh/)
@@ -39,9 +39,7 @@ Generated at: 2026-09-16T05:42:30.190Z
 - [high] 阿里百炼 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://help.aliyun.com/zh/model-studio/model-pricing)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/model-pricing)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/coding-plan)
-- [medium] 阿里百炼 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://help.aliyun.com/zh/model-studio/token-plan-overview)
 - [high] 阿里百炼 / parse-failed: 抓取成功，但未能从官方页面解析 标准坐席 的完整价格或上下文信息。 (https://help.aliyun.com/zh/model-studio/token-plan-overview)
-- [medium] 百度千帆 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://cloud.baidu.com/product/codingplan.html)
 - [high] 百度千帆 / parse-failed: 抓取成功，但未能从官方页面解析 Coding Plan Lite/Pro 的完整价格或上下文信息。 (https://cloud.baidu.com/product/codingplan.html)
 - [medium] 腾讯云 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://cloud.tencent.com/act/pro/tokenplan)
 - [high] 京东云 / fetch-failed: 无法抓取官方来源：HTTP 500 (https://developer.jdcloud.com/topics/4467)
@@ -54,15 +52,15 @@ Generated at: 2026-09-16T05:42:30.190Z
 - 智谱 AI / code-plan-subscription: HTTP 200, 125 chars, parser=none
 - Kimi / api-pricing: HTTP 200, 1105 chars, parser=none
 - Kimi / membership-plan-subscription: HTTP 200, 33 chars, parser=none
-- MiniMax / pricing-overview: HTTP 200, 4921 chars, parser=none
+- MiniMax / pricing-overview: HTTP 200, 4999 chars, parser=none
 - MiniMax / token-plan: HTTP 200, 16 chars, parser=none
 - 美团 LongCat / official-entry: HTTP 200, 3982 chars, parser=none
 - 美团 LongCat / api-docs: HTTP 200, 2066 chars, parser=none
 - 小米 MiMo / token-plan-subscription: HTTP 404, 37 chars, parser=mimoTokenPlan
 - 小米 MiMo / api-pricing: HTTP 404, 37 chars, parser=mimoPricing
 - 火山方舟 / code-plan-subscription: HTTP 200, 5628 chars, parser=none
-- 阿里百炼 / model-release: HTTP 200, 15029 chars, parser=none
-- 阿里百炼 / api-pricing: HTTP 200, 103985 chars, parser=none
+- 阿里百炼 / model-release: HTTP 200, 15143 chars, parser=none
+- 阿里百炼 / api-pricing: HTTP 200, 103928 chars, parser=none
 - 阿里百炼 / code-plan: HTTP 200, 3787 chars, parser=none
 - 阿里百炼 / token-plan: HTTP 200, 2626 chars, parser=aliyunTokenPlan
 - 百度千帆 / code-plan: HTTP 200, 1945 chars, parser=baiduCodingPlan
