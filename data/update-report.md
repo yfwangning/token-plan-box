@@ -1,13 +1,13 @@
 # Official Price Update Report
 
-Generated at: 2026-09-26T05:56:08.835Z
+Generated at: 2026-09-27T06:21:49.259Z
 
 ## Summary
 
 - Sources checked: 20
 - Parsed API models: 0
 - Parsed plans: 0
-- Review items: 24
+- Review items: 22
 - Fetch failures: 3
 
 ## Parsed Plans
@@ -28,9 +28,7 @@ Generated at: 2026-09-26T05:56:08.835Z
 - [medium] Kimi / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://www.kimi.com/membership/pricing?track_id=ace3f1b9-bb9d-4941-887c-751e4b091694)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/docs/guides/pricing-paygo)
 - [medium] MiniMax / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://platform.minimaxi.com/subscribe/token-plan)
-- [high] 美团 LongCat / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://longcat.chat/platform/docs/zh/)
 - [medium] 美团 LongCat / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://longcat.chat/platform/docs/zh/)
-- [high] 美团 LongCat / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://longcat.chat/platform/docs/zh/APIDocs.html)
 - [medium] 美团 LongCat / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://longcat.chat/platform/docs/zh/APIDocs.html)
 - [high] 小米 MiMo / fetch-failed: 无法抓取官方来源：HTTP 404 (https://platform.xiaomimimo.com/static/docs/tokenplan/subscription.md)
 - [high] 小米 MiMo / fetch-failed: 无法抓取官方来源：HTTP 404 (https://platform.xiaomimimo.com/static/docs/pricing.md)
