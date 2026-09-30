@@ -1,6 +1,6 @@
 # Official Price Update Report
 
-Generated at: 2026-09-29T06:38:31.887Z
+Generated at: 2026-09-30T06:20:47.428Z
 
 ## Summary
 
@@ -57,7 +57,7 @@ Generated at: 2026-09-29T06:38:31.887Z
 - 小米 MiMo / token-plan-subscription: HTTP 404, 37 chars, parser=mimoTokenPlan
 - 小米 MiMo / api-pricing: HTTP 404, 37 chars, parser=mimoPricing
 - 火山方舟 / code-plan-subscription: HTTP 200, 5697 chars, parser=none
-- 阿里百炼 / model-release: HTTP 200, 15159 chars, parser=none
+- 阿里百炼 / model-release: HTTP 200, 15149 chars, parser=none
 - 阿里百炼 / api-pricing: HTTP 200, 109147 chars, parser=none
 - 阿里百炼 / code-plan: HTTP 200, 3789 chars, parser=none
 - 阿里百炼 / token-plan: HTTP 200, 2670 chars, parser=aliyunTokenPlan
