@@ -1,13 +1,13 @@
 # Official Price Update Report
 
-Generated at: 2026-10-13T07:26:26.010Z
+Generated at: 2026-10-14T05:53:33.581Z
 
 ## Summary
 
 - Sources checked: 20
 - Parsed API models: 0
 - Parsed plans: 0
-- Review items: 25
+- Review items: 24
 - Fetch failures: 3
 
 ## Parsed Plans
@@ -39,7 +39,6 @@ Generated at: 2026-10-13T07:26:26.010Z
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/model-pricing)
 - [medium] 阿里百炼 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://help.aliyun.com/zh/model-studio/coding-plan)
 - [high] 阿里百炼 / parse-failed: 抓取成功，但未能从官方页面解析 标准坐席 的完整价格或上下文信息。 (https://help.aliyun.com/zh/model-studio/token-plan-overview)
-- [medium] 百度千帆 / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://cloud.baidu.com/product/codingplan.html)
 - [high] 百度千帆 / parse-failed: 抓取成功，但未能从官方页面解析 Coding Plan Lite/Pro 的完整价格或上下文信息。 (https://cloud.baidu.com/product/codingplan.html)
 - [high] 腾讯云 / source-changed: 官方来源内容发生变化，但尚未实现结构化解析器，请人工复核价格表。 (https://cloud.tencent.com/act/pro/tokenplan)
 - [medium] 腾讯云 / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://cloud.tencent.com/act/pro/tokenplan)
@@ -60,11 +59,11 @@ Generated at: 2026-10-13T07:26:26.010Z
 - 小米 MiMo / token-plan-subscription: HTTP 404, 37 chars, parser=mimoTokenPlan
 - 小米 MiMo / api-pricing: HTTP 404, 37 chars, parser=mimoPricing
 - 火山方舟 / code-plan-subscription: HTTP 200, 5697 chars, parser=none
-- 阿里百炼 / model-release: HTTP 200, 15045 chars, parser=none
-- 阿里百炼 / api-pricing: HTTP 200, 78704 chars, parser=none
+- 阿里百炼 / model-release: HTTP 200, 14969 chars, parser=none
+- 阿里百炼 / api-pricing: HTTP 200, 78705 chars, parser=none
 - 阿里百炼 / code-plan: HTTP 200, 3750 chars, parser=none
 - 阿里百炼 / token-plan: HTTP 200, 2670 chars, parser=aliyunTokenPlan
 - 百度千帆 / code-plan: HTTP 200, 1935 chars, parser=baiduCodingPlan
-- 腾讯云 / token-plan: HTTP 200, 4325 chars, parser=none
+- 腾讯云 / token-plan: HTTP 200, 4312 chars, parser=none
 - 京东云 / code-plan: HTTP 500, 91 chars, parser=jdcloudCodingPlan
 - 讯飞星火 / code-plan: HTTP 200, 16697 chars, parser=xfyunCodingPlan
