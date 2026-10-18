@@ -1,6 +1,6 @@
 # Official Price Update Report
 
-Generated at: 2026-10-17T05:22:27.179Z
+Generated at: 2026-10-18T05:29:55.498Z
 
 ## Summary
 
@@ -46,7 +46,7 @@ Generated at: 2026-10-17T05:22:27.179Z
 
 ## Source Health
 
-- DeepSeek / api-pricing: HTTP 200, 1873 chars, parser=deepseekPricing
+- DeepSeek / api-pricing: HTTP 200, 1883 chars, parser=deepseekPricing
 - 智谱 AI / api-pricing: HTTP 200, 125 chars, parser=none
 - 智谱 AI / code-plan-subscription: HTTP 200, 125 chars, parser=none
 - Kimi / api-pricing: HTTP 200, 1444 chars, parser=none
