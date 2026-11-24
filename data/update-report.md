@@ -1,13 +1,13 @@
 # Official Price Update Report
 
-Generated at: 2026-11-23T08:39:37.230Z
+Generated at: 2026-11-24T10:42:59.752Z
 
 ## Summary
 
 - Sources checked: 20
 - Parsed API models: 0
 - Parsed plans: 0
-- Review items: 27
+- Review items: 26
 - Fetch failures: 3
 
 ## Parsed Plans
@@ -20,7 +20,6 @@ Generated at: 2026-11-23T08:39:37.230Z
 
 ## Review Queue
 
-- [medium] DeepSeek / source-changed: 官方来源内容发生变化，已尝试结构化解析，请人工抽查。 (https://api-docs.deepseek.com/zh-cn/quick_start/pricing)
 - [high] DeepSeek / parse-failed: 抓取成功，但未能从官方页面解析 deepseek-v4-flash 的完整价格或上下文信息。 (https://api-docs.deepseek.com/zh-cn/quick_start/pricing)
 - [high] DeepSeek / parse-failed: 抓取成功，但未能从官方页面解析 deepseek-v4-pro 的完整价格或上下文信息。 (https://api-docs.deepseek.com/zh-cn/quick_start/pricing)
 - [medium] 智谱 AI / parser-missing: 已抓取官方页面快照，但还没有对应解析器；该厂商价格不得自动发布。 (https://bigmodel.cn/pricing)
@@ -53,17 +52,17 @@ Generated at: 2026-11-23T08:39:37.230Z
 - DeepSeek / api-pricing: HTTP 200, 2131 chars, parser=deepseekPricing
 - 智谱 AI / api-pricing: HTTP 200, 125 chars, parser=none
 - 智谱 AI / code-plan-subscription: HTTP 200, 125 chars, parser=none
-- Kimi / api-pricing: HTTP 200, 45054 chars, parser=none
+- Kimi / api-pricing: HTTP 200, 45058 chars, parser=none
 - Kimi / membership-plan-subscription: HTTP 200, 35 chars, parser=none
 - MiniMax / pricing-overview: HTTP 200, 112039 chars, parser=none
-- MiniMax / token-plan: HTTP 200, 737 chars, parser=none
+- MiniMax / token-plan: HTTP 200, 759 chars, parser=none
 - 美团 LongCat / official-entry: HTTP 200, 4059 chars, parser=none
 - 美团 LongCat / api-docs: HTTP 200, 2345 chars, parser=none
 - 小米 MiMo / token-plan-subscription: HTTP 404, 37 chars, parser=mimoTokenPlan
 - 小米 MiMo / api-pricing: HTTP 404, 37 chars, parser=mimoPricing
 - 火山方舟 / code-plan-subscription: HTTP 200, 6495 chars, parser=none
-- 阿里百炼 / model-release: HTTP 200, 14474 chars, parser=none
-- 阿里百炼 / api-pricing: HTTP 200, 86608 chars, parser=none
+- 阿里百炼 / model-release: HTTP 200, 14459 chars, parser=none
+- 阿里百炼 / api-pricing: HTTP 200, 86583 chars, parser=none
 - 阿里百炼 / code-plan: HTTP 200, 3712 chars, parser=none
 - 阿里百炼 / token-plan: HTTP 200, 6521 chars, parser=aliyunTokenPlan
 - 百度千帆 / code-plan: HTTP 200, 2076 chars, parser=baiduCodingPlan
